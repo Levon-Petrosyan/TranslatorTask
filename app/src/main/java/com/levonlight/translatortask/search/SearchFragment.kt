@@ -14,11 +14,6 @@ import com.levonlight.translatortask.databinding.FragmentSearchBinding
 import com.levonlight.translatortask.extensions.toast
 import kotlinx.android.synthetic.main.fragment_search.*
 
-/**
- * Created by Levon Petrosyan on 7/7/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
 class SearchFragment :
     BaseFragment<FragmentSearchBinding, SearchViewModel>(R.layout.fragment_search),
     TranslationItemClick {

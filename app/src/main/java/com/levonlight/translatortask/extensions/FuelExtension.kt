@@ -4,12 +4,6 @@ import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.gson.responseObject
 import com.levonlight.translatortask.api.Routing
 
-/**
- * Created by Levon Petrosyan on 7/6/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
-
 inline fun <reified T : Any> fuelRequest(
     fuelParameters: Routing.SearchWord,
     crossinline success: Success<T?>,

@@ -5,11 +5,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.levonlight.translatortask.search.SearchRepository
 import com.levonlight.translatortask.search.SearchViewModel
 
-/**
- * Created by Levon Petrosyan on 7/7/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
 @Suppress("UNCHECKED_CAST")
 sealed class ViewModelFactory : ViewModelProvider.Factory {
     object SearchWord : ViewModelFactory()

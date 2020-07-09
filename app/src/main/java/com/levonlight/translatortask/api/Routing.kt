@@ -4,11 +4,6 @@ import com.github.kittinunf.fuel.core.HeaderValues
 import com.github.kittinunf.fuel.core.Method
 import com.github.kittinunf.fuel.util.FuelRouting
 
-/**
- * Created by Levon Petrosyan on 7/5/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
 sealed class Routing : FuelRouting {
 
     override val basePath = "https://dictionary.skyeng.ru/api/public/v1/words/"

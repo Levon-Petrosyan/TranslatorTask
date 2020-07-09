@@ -4,11 +4,6 @@ import com.levonlight.translatortask.search.SearchValidator
 import junit.framework.Assert.assertTrue
 import org.junit.Test
 
-/**
- * Created by Levon Petrosyan on 7/8/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
 class SearchValidatorTest {
 
     private var searchValidator = SearchValidator()

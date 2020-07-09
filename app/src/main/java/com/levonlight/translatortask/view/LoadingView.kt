@@ -9,12 +9,6 @@ import com.levonlight.translatortask.R
 import com.levonlight.translatortask.extensions.hideKeyboard
 import kotlinx.android.synthetic.main.loading_view.view.*
 
-/**
- * Created by Levon Petrosyan on 7/8/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
-
 class CircleLoading @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : ConstraintLayout(context, attrs, defStyleAttr) {

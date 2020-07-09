@@ -9,11 +9,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.levonlight.translatortask.data.TranslateResponseItem
 import com.levonlight.translatortask.databinding.ItemTranslationListBinding
 
-/**
- * Created by Levon Petrosyan on 7/8/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
 class TranslationListAdapter(private val translationItemClick: TranslationItemClick? = null) :
     ListAdapter<TranslateResponseItem, TranslationListAdapter.TranslationViewHolder>(
         TranslationDiffUtils()

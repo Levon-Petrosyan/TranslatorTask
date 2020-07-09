@@ -9,11 +9,6 @@ import com.levonlight.translatortask.base.BaseFragment
 import com.levonlight.translatortask.databinding.FragmentDetailsBinding
 import kotlinx.android.synthetic.main.fragment_details.*
 
-/**
- * Created by Levon Petrosyan on 7/8/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
 class DetailsFragment :
 
     BaseFragment<FragmentDetailsBinding, DetailsViewModel>(R.layout.fragment_details) {

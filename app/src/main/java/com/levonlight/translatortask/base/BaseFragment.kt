@@ -12,11 +12,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 
-/**
- * Created by Levon Petrosyan on 7/7/20.
- * Company name:  Digitain
- * E-Mail: levon.petrosyan.a@digitain.com
- */
 abstract class BaseFragment<B : ViewDataBinding, V : BaseViewModel>(@LayoutRes layoutRes: Int) :
     Fragment(layoutRes) {
 
